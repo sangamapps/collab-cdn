@@ -1,0 +1,11 @@
+.sg-table {
+    border-collapse: collapse;
+    border-radius: 10px;
+
+    th,
+    td {
+        border: 1px solid white;
+        padding: 5px;
+        color: white;
+    }
+}

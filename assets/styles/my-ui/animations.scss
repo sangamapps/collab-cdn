@@ -1,0 +1,23 @@
+@keyframes zoom-out {
+    50% {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ani-zoom {
+    transition: transform 0.2s;
+}
+
+.ani-zoom[data-show='true'] {
+    transform: scale(1);
+}
+
+.ani-zoom[data-show='false'] {
+    transform: scale(0);
+}

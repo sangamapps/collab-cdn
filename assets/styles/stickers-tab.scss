@@ -1,0 +1,54 @@
+.stickers-tab {
+    margin-top: 5px;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+
+    .stickers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5px;
+        height: 200px;
+        overflow-y: auto;
+    }
+
+    .sticker-group-name {
+        margin: 2px;
+        flex-basis: 94%;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        color: darkcyan;
+    }
+
+    .sticker {
+        margin: 2px;
+        border: 1px solid darkcyan;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .sticker-img{
+        height: 75px;
+        width: 75px;
+    }
+
+    .stickers-header{
+        display: flex;
+        overflow-y: auto;
+        border-bottom: 1px solid darkcyan;
+        padding-bottom: 5px;
+    }
+
+    .sticker-header-img{
+        height: 35px;
+        width: 35px;
+        color: darkcyan;
+    }
+
+    .sticker-header-active-icon{
+        background: #c7dbef;
+        border-color: #1976d2;
+    }
+}

@@ -1,0 +1,17 @@
+.sg-alert {
+    text-align: center;
+    padding: 5px;
+}
+
+.sg-alert-danger {
+    @extend .sg-alert;
+    background: $danger;
+    color: white;
+}
+
+.sg-alert-main {
+    @extend .sg-alert;
+    background: $layout-bg;
+    color: white;
+    box-shadow: 0 0 5px white;
+}

@@ -1,0 +1,16 @@
+.home-view{
+    .home-header{
+        color: white;
+        padding: 10px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .friends-view{
+        padding: 10px;
+        display: flex;
+        flex-flow: wrap;
+        .friend-link{
+            margin: 5px;
+        }
+    }
+}

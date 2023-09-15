@@ -1,0 +1,16 @@
+{
+    "name": "Collabhere",
+    "manifest_version": 1,
+    "version": 0.3,
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "description": "This is web chat application built with Node.js, React.js and MongoDB which allows to chat with mupltiple persons.",
+    "icons": [
+        {
+            "src": "/assets/images/favicon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}

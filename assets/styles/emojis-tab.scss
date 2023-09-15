@@ -1,0 +1,23 @@
+.emojis-tab {
+    padding: 5px;
+
+    .emoji-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5px;
+
+        .emoji-group-name {
+            flex-basis: 94%;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .emoji {
+            margin: 2px;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 30px;
+        }
+    }
+}

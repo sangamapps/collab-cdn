@@ -1,0 +1,84 @@
+.m-auto {
+    margin: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.my-auto {
+    @extend .mt-auto;
+    @extend .mb-auto;
+}
+
+.mx-auto {
+    @extend .ml-auto;
+    @extend .mr-auto;
+}
+
+.mbr-auto {
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.mtl-auto {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.inner-m-auto {
+    >* {
+        @extend .m-auto;
+    }
+}
+
+.inner-mx-auto {
+    >* {
+        @extend .mx-auto;
+    }
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.inner-mt-5 {
+    >* {
+        @extend .mt-5;
+    }
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.inner-mt-10 {
+    >* {
+        @extend .mt-10;
+    }
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.my-5 {
+    @extend .mt-5;
+    @extend .mb-5;
+}

@@ -1,0 +1,29 @@
+.text-center {
+    text-align: center;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-wrap {
+    white-space: wrap;
+    word-break: break-all;
+}
+
+.text-primary {
+    color: $primary;
+}
